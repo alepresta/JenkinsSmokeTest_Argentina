@@ -6,157 +6,158 @@ Given /^Ingresar a la página principal$/ do
 end
 
 Then /^buscar la palabra: anses$/ do
-  # do something
+  browser_argentina_front
+
 end
 
 Then /^buscar la palabra: dominio$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^buscar la palabra: tramite de cuil$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^buscar la palabra: cuit hermano$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^buscar la palabra: SALUD$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^buscar la palabra: SALÚD$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^buscar la palabra: jubilacion$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^buscar la palabra: trámite de médula ósea$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^verificar que el botón Mi Argentina redirija correctamente$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Si tenés que hacer un trámite, podés sacar turno en línea y ganar tiempo.$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - RED SUBE$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Mi Argentina$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Identidad$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Trabajar$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Cuidar la salud$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Estudiar$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Emprender, innovar, crecer$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Adultos mayores$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Personas con discapacidad$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Argentinos en el mundo$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Extranjeros en Argentina$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Cultura y tiempo libre$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Pareja y familia$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Violencia y abuso$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Emergencias$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Acceder a una vivienda$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Tránsito y automotor$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Consumidores$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Transparencia$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^Se verificaran 8 links y textos$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Creative Commons Reconocimiento$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - QUERÉS HACERNOS UNA SUGERENCIA$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Trámites y servicios$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Turnos$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Organismos del Estado$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Mapa del Estado$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Acerca de este sitio$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Términos y condiciones$/ do
-  # do something
+  browser_argentina_front
 end
 
 Then /^link - Ayuda$/ do
-  # do something
+  browser_argentina_front
 end
