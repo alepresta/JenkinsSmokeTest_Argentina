@@ -1,13 +1,27 @@
+
+
+
+
+
+
+
+
+
 Given /^Ingresar a la página principal$/ do
   browser_argentina_front
-  line
   captura_de_pantalla("home_argentina.gob.ar")
-  line
 end
 
 Then /^buscar la palabra: anses$/ do
   browser_argentina_front
-
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys("anses")
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  resultado_busqueda = donde_estoy
+  puts resultado_busqueda
+  puts line
+  puts @browser.current_url
 end
 
 Then /^buscar la palabra: dominio$/ do

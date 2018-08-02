@@ -1,1 +1,4 @@
-default: --format pretty
+#default: --format pretty
+default: -p html report_name=all
+html: -f html -o test/report/reporte.html --format pretty
+menu: -t @menu -p html report_name=menu
