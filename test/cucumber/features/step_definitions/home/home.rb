@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 Given /^Ingresar a la página principal$/ do
   browser_argentina_front
   captura_de_pantalla("home_argentina.gob.ar")
@@ -14,42 +6,118 @@ end
 
 Then /^buscar la palabra: anses$/ do
   browser_argentina_front
+  texto_buscado = "anses"
   buscador = captura_elemento(:id,'edit-keys')
-  buscador.send_keys("anses")
+  buscador.send_keys texto_buscado
   lupa = captura_elemento(:id,'edit-submit')
   lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/anses"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^buscar la palabra: dominio$/ do
   browser_argentina_front
+  texto_buscado = "dominio"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/dominio"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^buscar la palabra: tramite de cuil$/ do
   browser_argentina_front
+  texto_buscado = "cuil"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/cuil"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^buscar la palabra: cuit hermano$/ do
   browser_argentina_front
+  texto_buscado = "hermano"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/hermano"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^buscar la palabra: SALUD$/ do
   browser_argentina_front
+  texto_buscado = "SALUD"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/SALUD"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^buscar la palabra: SALÚD$/ do
   browser_argentina_front
+  texto_buscado = "SALÚD"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/SAL%C3%9AD"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^buscar la palabra: jubilacion$/ do
   browser_argentina_front
+  texto_buscado = "jubilacion"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/jubilacion"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^buscar la palabra: trámite de médula ósea$/ do
   browser_argentina_front
+  texto_buscado = "trámite de médula ósea"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/tr%C3%A1mite%20de%20m%C3%A9dula%20%C3%B3sea"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
 end
 
 Then /^verificar que el botón Mi Argentina redirija correctamente$/ do
   browser_argentina_front
+  boton_MiArgentina = captura_elemento(:id,'cd-login')
+  boton_MiArgentina.click
+  puts "antes " + donde_estoy
+  esperar(10)
+  puts "despues " + donde_estoy
+  url_esperada =  'mi.argentina.gob.ar'
+  url_encontrada = donde_estoy
+  esIgual(url_esperada, url_encontrada , "URL: #{donde_estoy}")
 end
 
 Then /^link - Si tenés que hacer un trámite, podés sacar turno en línea y ganar tiempo.$/ do

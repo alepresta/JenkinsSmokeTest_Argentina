@@ -2,7 +2,7 @@ Feature: Pagina principal
   Este caso de prueba consiste en la verificacion de la home de Argentina.gob.ar back.argentina.gob.ar
   Se verificara el funcionamiento del buscador tanto de la pagina principal como en cualquier otra pagina que no sea la principal
   Se verificara que todos los links de la página principal funcionen
-
+  @menu
   Scenario: Ingresar a la página principal
     Given Ingresar a la página principal
   @menu
@@ -15,7 +15,7 @@ Feature: Pagina principal
     Then buscar la palabra: SALÚD
     Then buscar la palabra: jubilacion
     Then buscar la palabra: trámite de médula ósea
-
+  @menu
   Scenario:  botón Mi Argentina
     Then verificar que el botón Mi Argentina redirija correctamente
 

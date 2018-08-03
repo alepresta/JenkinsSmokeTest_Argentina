@@ -123,7 +123,7 @@ def link_css_selector(css,link_que_deberia_ser)
 end
 
 def donde_estoy
-  puts @browser.current_url
+  @browser.current_url
 end
 
 
@@ -169,8 +169,8 @@ def atributo(css,type,resultado_esperado_del_type)
   end
 end
 
-def esperar
-  @browser.manage.timeouts.implicit_wait = 3
+def esperar(segundos)
+  @browser.manage.timeouts.page_load = segundos
 end
 
 
@@ -184,4 +184,8 @@ def rt
   driver.manage.window.move_to(300, 400)
   driver.manage.window.resize_to(500, 800)
   driver.manage.window.maximize
+end
+
+def titulo
+  @browser.title
 end
