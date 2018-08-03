@@ -1,3 +1,5 @@
+require 'uri'
+require 'open-uri'
 
 Given /^Ingresar a la página principal$/ do
   browser_argentina_front
@@ -15,6 +17,11 @@ Then /^buscar la palabra: anses$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/anses"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
 end
 
 Then /^buscar la palabra: dominio$/ do
@@ -28,6 +35,10 @@ Then /^buscar la palabra: dominio$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/dominio"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^buscar la palabra: tramite de cuil$/ do
@@ -41,6 +52,10 @@ Then /^buscar la palabra: tramite de cuil$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/cuil"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^buscar la palabra: cuit hermano$/ do
@@ -54,6 +69,10 @@ Then /^buscar la palabra: cuit hermano$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/hermano"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^buscar la palabra: SALUD$/ do
@@ -67,6 +86,10 @@ Then /^buscar la palabra: SALUD$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/SALUD"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^buscar la palabra: SALÚD$/ do
@@ -80,6 +103,10 @@ Then /^buscar la palabra: SALÚD$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/SAL%C3%9AD"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^buscar la palabra: jubilacion$/ do
@@ -93,6 +120,10 @@ Then /^buscar la palabra: jubilacion$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/jubilacion"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^buscar la palabra: trámite de médula ósea$/ do
@@ -106,6 +137,10 @@ Then /^buscar la palabra: trámite de médula ósea$/ do
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/tr%C3%A1mite%20de%20m%C3%A9dula%20%C3%B3sea"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^verificar que el botón Mi Argentina redirija correctamente$/ do
@@ -118,18 +153,53 @@ Then /^verificar que el botón Mi Argentina redirija correctamente$/ do
   url_esperada =  'mi.argentina.gob.ar'
   url_encontrada = donde_estoy
   esIgual(url_esperada, url_encontrada , "URL: #{donde_estoy}")
+
 end
 
 Then /^link - Si tenés que hacer un trámite, podés sacar turno en línea y ganar tiempo.$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[3]/div/div/div[2]')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
+
+
+Then /^link - Donar órganos$/ do
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[3]/div/div/div[1]')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
 
 Then /^link - RED SUBE$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[3]/div/div/div[3]')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Mi Argentina$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[3]/div/div/div[4]')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Identidad$/ do

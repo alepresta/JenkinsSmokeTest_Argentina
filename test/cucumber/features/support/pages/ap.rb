@@ -2,6 +2,8 @@ require 'colorize'
 require 'selenium-webdriver'
 require 'phantomjs'
 require_relative '../pages/feats'
+require 'open-uri'
+require 'selenium-webdriver'
 =begin
 require_relative '../envs/env.rb.chrome'
 require_relative '../envs/env.rb.edit'
