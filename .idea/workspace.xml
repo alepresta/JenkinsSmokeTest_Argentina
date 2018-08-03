@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/home/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/home/home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/support/env.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" afterDir="false" />
-    </list>
+    <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -69,10 +64,10 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="1785">
               <caret line="119" column="63" lean-forward="true" selection-start-line="119" selection-start-column="63" selection-end-line="119" selection-end-column="63" />
             </state>
           </provider>
@@ -124,7 +119,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/home/home.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -417,7 +412,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12209000" />
+    <option name="totallyTimeSpent" value="12819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="-2" width="1853" height="1082" extended-state="6" />
@@ -492,17 +487,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="119" column="63" lean-forward="true" selection-start-line="119" selection-start-column="63" selection-end-line="119" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/home/home.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="63" lean-forward="true" selection-start-line="119" selection-start-column="63" selection-end-line="119" selection-end-column="63" />
         </state>
       </provider>
     </entry>
