@@ -189,3 +189,41 @@ end
 def titulo
   @browser.title
 end
+
+
+def link(esperado_href, actual_href)
+  uri1 = URI(actual_href)
+  uri2 = URI(esperado_href)
+  puts fail "Link es incorrecto" unless [uri1.host,uri1.scheme] == [uri2.host,uri2.scheme]
+  puts "href: #{esperado_href} ...[PASSED]"
+end
+
+def status(estatus_esperado)
+  expected_status = ["#{estatus_esperado}", "OK"]
+  link = @browser.find_element(:tag_name, "a").attribute("href")
+  io = open(link)
+  link_status = io.status
+  unless expected_status == link_status
+    puts "Link is broken"
+  end
+  puts "href: #{donde_estoy} status(#{link_status})  ...[PASSED]"
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

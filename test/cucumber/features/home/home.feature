@@ -18,16 +18,14 @@ Feature: Pagina principal
   @menu
   Scenario:  botón Mi Argentina
     Then verificar que el botón Mi Argentina redirija correctamente
-
+  @menu
   Scenario: Verificar los links del panel-body redirijan al sitio esperado
     Then link - Si tenés que hacer un trámite, podés sacar turno en línea y ganar tiempo.
+    Then link - Donar órganos
     Then link - RED SUBE
     Then link - Mi Argentina
-    Then link - Identidad
-    Then link - Trabajar
-    Then link - Cuidar la salud
-    Then link - Estudiar
 
+  @menu
   Scenario: Verificar los links de trámites y servicios se redirijan correctamante
     Then link - Identidad
     Then link - Trabajar
