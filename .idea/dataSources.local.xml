@@ -7,11 +7,11 @@
       <first-sync>true</first-sync>
     </data-source>
     <data-source name="Rails JenkinsSmokeTest_Argentina: test" uuid="40f3799e-993c-4892-a7fc-344bb0ddb7b1">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
       <auth-required>false</auth-required>
     </data-source>
     <data-source name="Rails JenkinsSmokeTest_Argentina: production" uuid="122c226f-c3dd-415e-9432-6cdf8ae9f4cd">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
       <auth-required>false</auth-required>
     </data-source>
   </component>

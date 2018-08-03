@@ -18,10 +18,6 @@ Then /^buscar la palabra: anses$/ do
   buscador.send_keys("anses")
   lupa = captura_elemento(:id,'edit-submit')
   lupa.click
-  resultado_busqueda = donde_estoy
-  puts resultado_busqueda
-  puts line
-  puts @browser.current_url
 end
 
 Then /^buscar la palabra: dominio$/ do
