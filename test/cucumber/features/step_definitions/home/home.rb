@@ -361,7 +361,7 @@ Then /^link - Tránsito y automotor$/ do
   textodellink = links2.text
   puts textodellink
   links2.click
-  esperado_href = actual_href = donde_estoy
+  esperado_href = actual_href = donde_estoywwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
   link(esperado_href, actual_href)
   status('200')
 end
