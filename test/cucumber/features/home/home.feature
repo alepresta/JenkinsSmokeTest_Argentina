@@ -45,12 +45,13 @@ Feature: Pagina principal
     Then link - Consumidores
     Then link - Transparencia
 
+  @menu
   Scenario: Verificar que los link de la sección Más consultados
     Then Se verificaran 8 links y textos
 
+  @menu
   Scenario: Verificar los links del footer
     Then link - Creative Commons Reconocimiento
-
     Then link - QUERÉS HACERNOS UNA SUGERENCIA
     Then link - Trámites y servicios
     Then link - Turnos

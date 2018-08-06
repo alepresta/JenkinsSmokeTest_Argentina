@@ -204,74 +204,263 @@ end
 
 Then /^link - Identidad$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[1]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Trabajar$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[2]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Cuidar la salud$/ do
   browser_argentina_front
-end
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[3]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')end
 
 Then /^link - Estudiar$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[4]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Emprender, innovar, crecer$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[5]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Adultos mayores$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[6]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Personas con discapacidad$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[7]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Argentinos en el mundo$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[8]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Extranjeros en Argentina$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[9]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Cultura y tiempo libre$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[10]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Pareja y familia$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[11]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Violencia y abuso$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[12]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Emergencias$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[13]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Acceder a una vivienda$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[14]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Tránsito y automotor$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[15]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Consumidores$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[16]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Transparencia$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[5]/div/div/section/div/div/div[17]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^Se verificaran 8 links y textos$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[1]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[2]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[3]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[4]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[5]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[6]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[7]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
+  browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-system-main"]/section/div/div/div[7]/div/div/div/div/div[8]/a/h3')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+
 end
 
 Then /^link - Creative Commons Reconocimiento$/ do
