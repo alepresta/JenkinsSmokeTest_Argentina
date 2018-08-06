@@ -361,7 +361,7 @@ Then /^link - Tránsito y automotor$/ do
   textodellink = links2.text
   puts textodellink
   links2.click
-  esperado_href = actual_href = donde_estoywwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  esperado_href = actual_href = donde_estoy
   link(esperado_href, actual_href)
   status('200')
 end
@@ -531,7 +531,7 @@ Then /^link - Acerca de este sitio$/ do
   links2.click
   esperado_href = actual_href = donde_estoy
   link(esperado_href, actual_href)
-  status('200')
+  status('2004')
 end
 
 Then /^link - Términos y condiciones$/ do
@@ -553,5 +553,5 @@ Then /^link - Ayuda$/ do
   links2.click
   esperado_href = actual_href = donde_estoy
   link(esperado_href, actual_href)
-  status('200')
+  status('2002')
 end

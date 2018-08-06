@@ -194,7 +194,7 @@ end
 def link(esperado_href, actual_href)
   uri1 = URI(actual_href)
   uri2 = URI(esperado_href)
-  puts fail "Link es incorrecto" unless [uri1.host,uri1.scheme] == [uri2.host,uri2.scheme]
+  puts fail "Se encontro el link: (#{actual_href}) es distinto de: link: (#{esperado_href}) ....[ERROR]".red unless [uri1.host,uri1.scheme] == [uri2.host,uri2.scheme]
   puts "href: #{esperado_href} ...[PASSED]"
 end
 
@@ -204,7 +204,7 @@ def status(estatus_esperado)
   io = open(link)
   link_status = io.status
   unless expected_status == link_status
-    puts "Link is broken"
+    puts fail "Status:(#{link_status}) Link is broken ..... [ERROR]".red
   end
   puts "href: #{donde_estoy} status(#{link_status})  ...[PASSED]"
 end
