@@ -465,36 +465,93 @@ end
 
 Then /^link - Creative Commons Reconocimiento$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '/html/body/footer/div/div/div[1]/section/p/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - QUERÉS HACERNOS UNA SUGERENCIA$/ do
   browser_argentina_front
+
 end
 
 Then /^link - Trámites y servicios$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-2"]/ul/li[1]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Turnos$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-2"]/ul/li[2]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Organismos del Estado$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-2"]/ul/li[3]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Mapa del Estado$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-2"]/ul/li[4]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Acerca de este sitio$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-3"]/ul/li[1]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Términos y condiciones$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-3"]/ul/li[2]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
 
 Then /^link - Ayuda$/ do
   browser_argentina_front
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-3"]/ul/li[3]/a')
+  textodellink = links2.text
+  puts textodellink
+  links2.click
+  esperado_href = actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
 end
