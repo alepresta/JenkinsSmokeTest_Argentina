@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/home/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/home/home.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/reporte.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -55,7 +51,7 @@
           <entry key="Gemfile" value="10" />
           <entry key="chrome" value="1" />
           <entry key="feature" value="25" />
-          <entry key="rb" value="1373" />
+          <entry key="rb" value="1470" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
@@ -63,7 +59,7 @@
         <counts>
           <entry key="Cucumber" value="25" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Ruby" value="1383" />
+          <entry key="Ruby" value="1480" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -83,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="556" column="3" lean-forward="true" selection-start-line="556" selection-start-column="3" selection-end-line="556" selection-end-column="3" />
+            <state relative-caret-position="704">
+              <caret line="549" column="140" selection-start-line="549" selection-start-column="140" selection-end-line="549" selection-end-column="140" />
             </state>
           </provider>
         </entry>
@@ -361,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21776000" />
+    <option name="totallyTimeSpent" value="22389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="-2" width="1853" height="1082" extended-state="6" />
@@ -489,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="556" column="3" lean-forward="true" selection-start-line="556" selection-start-column="3" selection-end-line="556" selection-end-column="3" />
+        <state relative-caret-position="704">
+          <caret line="549" column="140" selection-start-line="549" selection-start-column="140" selection-end-line="549" selection-end-column="140" />
         </state>
       </provider>
     </entry>

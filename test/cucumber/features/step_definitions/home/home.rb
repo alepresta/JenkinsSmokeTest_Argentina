@@ -547,7 +547,7 @@ end
 
 Then /^link - Ayuda$/ do
   browser_argentina_front
-  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-3"]/ul/li[3]/a')
+  links2 = captura_elemento(:xpath, '//*[@id="block-menu-menu-footer-3"]/ul/li[3]/aqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq')
   textodellink = links2.text
   puts textodellink
   links2.click
