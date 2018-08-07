@@ -30,3 +30,4 @@ Before do
   @domain = "http://cukehub.com"
   puts @browser.capabilities.browser_name + " " + @browser.capabilities.version
 end
+
