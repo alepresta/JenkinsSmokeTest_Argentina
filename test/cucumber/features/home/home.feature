@@ -5,6 +5,8 @@ Feature: Pagina principal
 
   Scenario: Ingresar a la página principal
     Given Ingresar a la página principal
+    
+    
   @menu
   Scenario: Buscar en la página principal
     Then buscar la palabra: anses
