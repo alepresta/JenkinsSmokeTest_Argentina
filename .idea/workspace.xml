@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/features/home/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/home/home.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/support/env.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -53,16 +54,16 @@
         <counts>
           <entry key="Gemfile" value="10" />
           <entry key="chrome" value="1" />
-          <entry key="feature" value="25" />
-          <entry key="rb" value="1529" />
+          <entry key="feature" value="36" />
+          <entry key="rb" value="1535" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="25" />
+          <entry key="Cucumber" value="36" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Ruby" value="1539" />
+          <entry key="Ruby" value="1545" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -73,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/home/home.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -82,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="534" column="3" lean-forward="true" selection-start-line="534" selection-start-column="3" selection-end-line="534" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -120,8 +121,8 @@
         <option value="$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.chrome" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/ap.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/home/home.feature" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/home/home.feature" />
         <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" />
       </list>
     </option>
@@ -365,12 +366,12 @@
       <workItem from="1533227215017" duration="4305000" />
       <workItem from="1533293802190" duration="1159000" />
       <workItem from="1533552237705" duration="3743000" />
-      <workItem from="1533638989206" duration="813000" />
+      <workItem from="1533638989206" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23202000" />
+    <option name="totallyTimeSpent" value="24744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="-2" width="1853" height="1082" extended-state="6" />
@@ -491,15 +492,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/home/home.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="534" column="3" lean-forward="true" selection-start-line="534" selection-start-column="3" selection-end-line="534" selection-end-column="3" />
+        <state relative-caret-position="45">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
