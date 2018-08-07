@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,8 +24,9 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,7 +35,7 @@
           <entry key="feature" value="2" />
           <entry key="html" value="1" />
           <entry key="png" value="2" />
-          <entry key="rb" value="7" />
+          <entry key="rb" value="8" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -42,7 +45,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Ruby" value="7" />
+          <entry key="Ruby" value="8" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -51,7 +54,7 @@
           <entry key="Gemfile" value="10" />
           <entry key="chrome" value="1" />
           <entry key="feature" value="25" />
-          <entry key="rb" value="1470" />
+          <entry key="rb" value="1529" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
@@ -59,7 +62,7 @@
         <counts>
           <entry key="Cucumber" value="25" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Ruby" value="1480" />
+          <entry key="Ruby" value="1539" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -71,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/home/home.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -79,17 +82,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="549" column="140" selection-start-line="549" selection-start-column="140" selection-end-line="549" selection-end-column="140" />
+            <state relative-caret-position="479">
+              <caret line="534" column="3" lean-forward="true" selection-start-line="534" selection-start-column="3" selection-end-line="534" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/env.rb">
+        <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="825">
+              <caret line="208" column="65" lean-forward="true" selection-start-line="208" selection-start-column="65" selection-end-line="208" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -117,8 +120,8 @@
         <option value="$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.chrome" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/ap.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" />
         <option value="$PROJECT_DIR$/test/cucumber/features/home/home.feature" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" />
         <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" />
       </list>
     </option>
@@ -144,8 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,6 +215,15 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
               <item name="envs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,17 +365,18 @@
       <workItem from="1533227215017" duration="4305000" />
       <workItem from="1533293802190" duration="1159000" />
       <workItem from="1533552237705" duration="3743000" />
+      <workItem from="1533638989206" duration="813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22389000" />
+    <option name="totallyTimeSpent" value="23202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="-2" width="1853" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,31 +475,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="208" column="65" lean-forward="true" selection-start-line="208" selection-start-column="65" selection-end-line="208" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/home/home.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="549" column="140" selection-start-line="549" selection-start-column="140" selection-end-line="549" selection-end-column="140" />
+        <state relative-caret-position="479">
+          <caret line="534" column="3" lean-forward="true" selection-start-line="534" selection-start-column="3" selection-end-line="534" selection-end-column="3" />
         </state>
       </provider>
     </entry>

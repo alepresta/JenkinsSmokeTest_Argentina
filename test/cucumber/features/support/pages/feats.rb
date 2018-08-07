@@ -204,7 +204,7 @@ def status(estatus_esperado)
   io = open(link)
   link_status = io.status
   unless expected_status == link_status
-    puts fail "Status:(#{link_status}) Link is broken ..... [ERROR]".red
+    puts fail " Link esta roto su status es:(#{link_status}) se esperaba un status (#{expected_status})..... [ERROR]".red
   end
   puts "href: #{donde_estoy} status(#{link_status})  ...[PASSED]"
 end
