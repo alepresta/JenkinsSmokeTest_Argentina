@@ -547,13 +547,13 @@ end
 
 Then /^link - Ayuda$/ do
   browser_argentina_front
-  links2 = captura_elemento(:xpath, '//*[@id="-xtrock-block-menu-menu-footer-3"]/ul/li[3]/a')
+  links2 = captura_elemento(:link, 'Ayuda')
   textodellink = links2.text
   puts textodellink
   links2.click
   esperado_href = actual_href = donde_estoy
   link(esperado_href, actual_href)
-  status('404')
+  status('200')
 end
 
 Then /^buscar desde argentina.gob.ar finanzas$/ do
