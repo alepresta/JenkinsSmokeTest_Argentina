@@ -13,7 +13,7 @@ Then /^buscar la palabra: anses$/ do
   buscador.send_keys texto_buscado
   lupa = captura_elemento(:id,'edit-submit')
   lupa.click
-  titulo_esperado = "wBusquedawwwww | Argentina.gob.ar"
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
   esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
   url_esperada =  "https://www.argentina.gob.ar/buscar/anses"
   esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")

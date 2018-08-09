@@ -10,13 +10,6 @@ Feature: Pagina principal
   @menu
   Scenario: Buscar en la página principal
     Then buscar la palabra: anses
-
-
-  Scenario:  botón Mi Argentina
-    Then verificar que el botón Mi Argentina redirija correctamente
-
-
-
     Then buscar la palabra: dominio
     Then buscar la palabra: tramite de cuil
     Then buscar la palabra: cuit hermano
@@ -25,10 +18,8 @@ Feature: Pagina principal
     Then buscar la palabra: jubilacion
     Then buscar la palabra: trámite de médula ósea
 
-
-
-
-
+  Scenario:  botón Mi Argentina
+    Then verificar que el botón Mi Argentina redirija correctamente
 
   Scenario: Verificar los links del panel-body redirijan al sitio esperado
     Then link - Si tenés que hacer un trámite, podés sacar turno en línea y ganar tiempo.
