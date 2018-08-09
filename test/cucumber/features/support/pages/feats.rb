@@ -14,6 +14,34 @@ def browser_argentina_front
   @browser.get "https://www.argentina.gob.ar/"
 end
 
+def browser_finanzas_front
+  @browser.get "https://www.argentina.gob.ar/finanzas"
+end
+
+def browser_vuce_novedades_front
+  @browser.get "https://www.argentina.gob.ar/vuce/novedades"
+end
+
+def browser_anmat_front
+  @browser.get "https://www.argentina.gob.ar/anmat"
+end
+
+def browser_salud_front
+  @browser.get "https://www.argentina.gob.ar/salud"
+end
+
+def browser_hacienda_front
+  @browser.get "https://www.argentina.gob.ar/hacienda"
+end
+
+def browser_politicassociales_front
+  @browser.get "https://www.argentina.gob.ar/politicassociales"
+end
+
+def browser_transporte_front
+  @browser.get "https://www.argentina.gob.ar/transporte"
+end
+
 def passed
   puts "......[PASSED]".green
 end

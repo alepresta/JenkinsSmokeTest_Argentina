@@ -17,6 +17,13 @@ Feature: Pagina principal
     Then buscar la palabra: SALÚD
     Then buscar la palabra: jubilacion
     Then buscar la palabra: trámite de médula ósea
+    Then buscar desde argentina.gob.ar finanzas
+    Then buscar desde argentina.gob.ar vuce novedades
+    Then buscar desde argentina.gob.ar anmat
+    Then buscar desde argentina.gob.ar salud
+    Then buscar desde argentina.gob.ar hacienda
+    Then buscar desde argentina.gob.ar politicassociales
+    Then buscar desde argentina.gob.ar transporte
 
   Scenario:  botón Mi Argentina
     Then verificar que el botón Mi Argentina redirija correctamente

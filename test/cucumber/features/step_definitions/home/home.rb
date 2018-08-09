@@ -555,3 +555,123 @@ Then /^link - Ayuda$/ do
   link(esperado_href, actual_href)
   status('404')
 end
+
+Then /^buscar desde argentina.gob.ar finanzas$/ do
+  browser_finanzas_front
+  texto_buscado = "anses"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/anses"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
+Then /^buscar desde argentina.gob.ar vuce novedades$/ do
+  browser_vuce_novedades_front
+  texto_buscado = "dominio"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/dominio"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
+Then /^buscar desde argentina.gob.ar anmat$/ do
+  browser_anmat_front
+  texto_buscado = "cuil"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/cuil"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
+Then /^buscar desde argentina.gob.ar salud$/ do
+  browser_salud_front
+  texto_buscado = "SALUD"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/SALUD"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
+Then /^buscar desde argentina.gob.ar hacienda$/ do
+  browser_hacienda_front
+  texto_buscado = "jubilacion"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/jubilacion"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
+Then /^buscar desde argentina.gob.ar politicassociales$/ do
+  browser_politicassociales_front
+  texto_buscado = "trámite de médula ósea"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/tr%C3%A1mite%20de%20m%C3%A9dula%20%C3%B3sea"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
+Then /^buscar desde argentina.gob.ar transporte$/ do
+  browser_transporte_front
+  texto_buscado = "SALÚD"
+  buscador = captura_elemento(:id,'edit-keys')
+  buscador.send_keys texto_buscado
+  lupa = captura_elemento(:id,'edit-submit')
+  lupa.click
+  titulo_esperado = "Busqueda | Argentina.gob.ar"
+  esIgual(titulo_esperado, titulo, "Buscar: #{texto_buscado}")
+  url_esperada =  "https://www.argentina.gob.ar/buscar/SAL%C3%9AD"
+  esIgual(url_esperada, donde_estoy, "URL: #{donde_estoy}")
+  esperado_href = url_esperada
+  actual_href = donde_estoy
+  link(esperado_href, actual_href)
+  status('200')
+end
+
