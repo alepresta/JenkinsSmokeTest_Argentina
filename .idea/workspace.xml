@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="1455">
               <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
             </state>
           </provider>
@@ -117,7 +117,7 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/turnos.feature">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -472,12 +472,12 @@
       <workItem from="1533829582614" duration="7605000" />
       <workItem from="1533900792985" duration="24917000" />
       <workItem from="1534158224202" duration="3953000" />
-      <workItem from="1534163648375" duration="4603000" />
+      <workItem from="1534163648375" duration="4901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67095000" />
+    <option name="totallyTimeSpent" value="67393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="-2" width="1853" height="1082" extended-state="6" />
@@ -624,13 +624,6 @@
     <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_formulario.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_argentina.gob.ar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -645,6 +638,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/turnos.feature">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
