@@ -8,5 +8,12 @@ Feature: Turno respuesta
   @turnos
   Scenario: Turno respuesta
     Then verificar que el sistema funcione
-    Then verificar que se puede completar el formulario turno
-    Then verficar que el turno corresponda al tipo de tramite
+
+    Then turno número 1-uno verificar organismo-trámite
+    Then turno número uno verificar el formulario
+
+    Then turno número 2-dos verificar organismo-trámite
+    Then turno número dos verificar el formulario
+
+    Then turno número 3-tres verificar organismo-trámite
+    Then turno número tres verificar el formulario

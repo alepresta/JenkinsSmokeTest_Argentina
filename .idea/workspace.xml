@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/home/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/imagenes/screenshot_800x800-home_argentina.gob.ar.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/imagenes/screenshot_800x800-home_argentina.gob.ar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/features/turnos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/turnos.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/imagenes/screenshot_800x800-home_argentina.gob.ar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cucumber/imagenes/w.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -20,39 +21,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JenkinsSmokeTest_Argentina@turnos.rcov" NAME="turnos Coverage Results" MODIFIED="1533922011914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos" MODULE_NAME="JenkinsSmokeTest_Argentina" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="791315444">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="chrome" value="3" />
-          <entry key="edit" value="1" />
-          <entry key="feature" value="5" />
+          <entry key="chrome" value="5" />
+          <entry key="edit" value="3" />
+          <entry key="feature" value="6" />
+          <entry key="firefox" value="2" />
+          <entry key="headless" value="2" />
           <entry key="html" value="1" />
           <entry key="json" value="1" />
-          <entry key="png" value="2" />
-          <entry key="rb" value="16" />
-          <entry key="safari" value="1" />
+          <entry key="png" value="21" />
+          <entry key="rb" value="22" />
+          <entry key="safari" value="3" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="5" />
+          <entry key="Cucumber" value="6" />
           <entry key="HTML" value="1" />
-          <entry key="Image" value="2" />
+          <entry key="Image" value="21" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Ruby" value="17" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Ruby" value="23" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -60,17 +68,17 @@
         <counts>
           <entry key="Gemfile" value="10" />
           <entry key="chrome" value="1" />
-          <entry key="edit" value="1" />
+          <entry key="edit" value="2" />
           <entry key="feature" value="76" />
-          <entry key="rb" value="1606" />
+          <entry key="rb" value="4424" />
           <entry key="yml" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="76" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Ruby" value="1616" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Ruby" value="4434" />
           <entry key="YAML" value="46" />
         </counts>
       </usages-collector>
@@ -78,29 +86,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="555" column="15" lean-forward="true" selection-start-line="555" selection-start-column="15" selection-end-line="555" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/cucumber/features/turnos.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state>
+              <caret line="256" column="13" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,19 +98,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="497">
+              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cucumber.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_argentina.gob.ar.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_3.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_home_argentina.gob.ar.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -130,6 +131,11 @@
       <find># do something</find>
       <find>test/report/</find>
       <find>finanzas</find>
+      <find>boton_sacar_turno_uno</find>
+      <find>boton_sacar_turno_dos</find>
+      <find>boton_sacar_turno_tres</find>
+      <find>dropDownMenu</find>
+      <find>options</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -137,6 +143,12 @@
       <replace>eee</replace>
       <replace>wwwwwwwwwww</replace>
       <replace>../../test/report/</replace>
+      <replace>@organismo_uno</replace>
+      <replace>@boton_sacar_turno_uno</replace>
+      <replace>@boton_sacar_turno_dos</replace>
+      <replace>@boton_sacar_turno_tres</replace>
+      <replace>provincia</replace>
+      <replace>opciones_provincia</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -145,17 +157,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.chrome" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/ap.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.edit" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" />
         <option value="$PROJECT_DIR$/test/cucumber/features/home/home.feature" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/turnos.feature" />
         <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/turnos.feature" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.chrome" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.edit" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" />
+        <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb" />
       </list>
     </option>
   </component>
@@ -180,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,12 +262,46 @@
               <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
               <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="envs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -281,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: JenkinsSmokeTest_Argentina">
+  <component name="RunManager" selected="Ruby.turnos">
     <configuration name="Development: JenkinsSmokeTest_Argentina" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="JenkinsSmokeTest_Argentina" />
@@ -377,12 +423,36 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="turnos" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="JenkinsSmokeTest_Argentina" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/test/cucumber/features/step_definitions/turnos" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Rake.test: JenkinsSmokeTest_Argentina" />
       <item itemvalue="Rake.spec: JenkinsSmokeTest_Argentina" />
       <item itemvalue="Rails.Production: JenkinsSmokeTest_Argentina" />
       <item itemvalue="Rails.Development: JenkinsSmokeTest_Argentina" />
+      <item itemvalue="Ruby.turnos" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.turnos" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -401,23 +471,25 @@
       <workItem from="1533638989206" duration="2355000" />
       <workItem from="1533664738778" duration="524000" />
       <workItem from="1533748325444" duration="749000" />
-      <workItem from="1533829582614" duration="5584000" />
+      <workItem from="1533829582614" duration="7605000" />
+      <workItem from="1533900792985" duration="24917000" />
+      <workItem from="1534158224202" duration="3953000" />
+      <workItem from="1534163648375" duration="4299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31601000" />
+    <option name="totallyTimeSpent" value="66791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="-2" width="1853" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26674044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,7 +497,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3280757" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3280757" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32912722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -444,28 +516,45 @@
     <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_800x800-home_argentina.gob.ar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/w.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/report/reporte.html" />
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.firefox">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="794">
+          <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.headless">
+    <entry file="file://$PROJECT_DIR$/test/report/slackreport.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="-3945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/env.rb">
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/w.png" />
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/home.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/turnos.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -476,17 +565,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.chrome">
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.chrome">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.edit">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.firefox">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.headless">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -497,66 +614,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/home.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/report/slackreport.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3945" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="28" />
+        <state>
+          <caret line="256" column="13" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_800x800-turnos_argentina.gob.ar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_formulario6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_formulario.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="497">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_argentina.gob.ar.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/turnos.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_3.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="555" column="15" lean-forward="true" selection-start-line="555" selection-start-column="15" selection-end-line="555" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_home_argentina.gob.ar.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

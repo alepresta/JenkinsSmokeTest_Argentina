@@ -14,6 +14,10 @@ def browser_argentina_front
   @browser.get "https://www.argentina.gob.ar/"
 end
 
+def browser_turnos_front
+  @browser.get "https://www.argentina.gob.ar/turnos"
+end
+
 def browser_finanzas_front
   @browser.get "https://www.argentina.gob.ar/finanzas"
 end
@@ -40,6 +44,10 @@ end
 
 def browser_transporte_front
   @browser.get "https://www.argentina.gob.ar/transporte"
+end
+
+def browser(browser)
+  @browser.get browser
 end
 
 def passed
@@ -74,6 +82,12 @@ end
 def miArgentina_cerrar
   @browser.close
 end
+
+
+def cerrar
+  @browser.close
+end
+
 
 def esta_este_elemento(clase, elemento)
   @browser.manage.timeouts.implicit_wait = 0
@@ -203,8 +217,8 @@ end
 
 
 def captura_de_pantalla(texto_de_la_imagen)
-  @browser.manage.window.resize_to(800, 800)
-  @browser.save_screenshot "imagenes/screenshot_800x800-#{texto_de_la_imagen}.png"
+  @browser.manage.window.resize_to(740, 968)
+  @browser.save_screenshot "imagenes/screenshot_#{texto_de_la_imagen}.png"
 end
 
 def rt
@@ -240,12 +254,26 @@ end
 
 
 
+def maximizar
+  @browser.manage.window.maximize
+end
 
 
 
+def select_click(provincia,capital_federal)
+  opciones_provincia = provincia.find_elements(tag_name: 'option')
+  opciones_provincia.each { |option| option.click if option.text == capital_federal }
+=begin
+    selected_option = opciones_provincia.map { |option| option.text if option.selected? }.join
+    expect(selected_option).to eql 'Option 1'
+=end
+end
 
+def emergente
+  #En algún momento tengo que hacer clic en myelementeso, como resultado, abriré una ventana emergente
+@browser.switch_to.window(@browser.window_handles.last)
 
-
+end
 
 
 
