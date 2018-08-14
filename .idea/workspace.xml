@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/features/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/features/home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_argentina.gob.ar.png" beforeDir="false" afterPath="$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_argentina.gob.ar.png" afterDir="false" />
-    </list>
+    <list default="true" id="03cd0471-0a41-4949-91d4-1e08b3f85d79" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -29,10 +24,10 @@
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,27 +35,26 @@
           <entry key="Gemfile" value="1" />
           <entry key="chrome" value="5" />
           <entry key="edit" value="3" />
-          <entry key="feature" value="11" />
-          <entry key="features" value="1" />
+          <entry key="feature" value="7" />
           <entry key="firefox" value="2" />
           <entry key="headless" value="2" />
           <entry key="html" value="1" />
           <entry key="json" value="1" />
-          <entry key="png" value="26" />
-          <entry key="rb" value="25" />
+          <entry key="png" value="21" />
+          <entry key="rb" value="22" />
           <entry key="safari" value="3" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="11" />
+          <entry key="Cucumber" value="7" />
           <entry key="HTML" value="1" />
-          <entry key="Image" value="26" />
+          <entry key="Image" value="21" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Ruby" value="26" />
-          <entry key="YAML" value="5" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Ruby" value="23" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -68,51 +62,23 @@
           <entry key="Gemfile" value="10" />
           <entry key="chrome" value="1" />
           <entry key="edit" value="2" />
-          <entry key="feature" value="230" />
-          <entry key="rb" value="4545" />
-          <entry key="yml" value="100" />
+          <entry key="feature" value="76" />
+          <entry key="rb" value="4424" />
+          <entry key="yml" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="230" />
+          <entry key="Cucumber" value="76" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Ruby" value="4555" />
-          <entry key="YAML" value="100" />
+          <entry key="Ruby" value="4434" />
+          <entry key="YAML" value="46" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/cucumber/features/compartir.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="879">
-              <caret line="156" selection-start-line="156" selection-end-line="156" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/smoke_01.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/compartir/compartir.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -124,9 +90,6 @@
       <find>boton_sacar_turno_tres</find>
       <find>dropDownMenu</find>
       <find>options</find>
-      <find>00000000000000</find>
-      <find>nodo_front(100829)</find>
-      <find># do something</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -140,17 +103,6 @@
       <replace>@boton_sacar_turno_tres</replace>
       <replace>provincia</replace>
       <replace>opciones_provincia</replace>
-      <replace>100066</replace>
-      <replace>9341</replace>
-      <replace>100887</replace>
-      <replace>00000000000000</replace>
-      <replace>100851</replace>
-      <replace>37227</replace>
-      <replace>37905</replace>
-      <replace>100803</replace>
-      <replace>3267</replace>
-      <replace>nodo_front(100829) #El CINAR completó la reparación de cuatro dragas</replace>
-      <replace>nodo_front(numero_nodo)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -163,6 +115,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/test/cucumber/features/home/home.feature" />
+        <option value="$PROJECT_DIR$/cucumber.yml" />
         <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb" />
         <option value="$PROJECT_DIR$/test/cucumber/features/turnos.feature" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/envs/env.rb.chrome" />
@@ -170,11 +123,6 @@
         <option value="$PROJECT_DIR$/test/cucumber/features/support/env.rb" />
         <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb" />
         <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb" />
-        <option value="$PROJECT_DIR$/cucumber.yml" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/home.feature" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/support/pages/smoke_01.rb" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/compartir.feature" />
-        <option value="$PROJECT_DIR$/test/cucumber/features/step_definitions/compartir/compartir.rb" />
       </list>
     </option>
   </component>
@@ -223,23 +171,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="cucumber" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JenkinsSmokeTest_Argentina" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
-              <item name="compartir" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JenkinsSmokeTest_Argentina" type="b2602c69:ProjectViewProjectNode" />
@@ -442,18 +373,14 @@
       <workItem from="1533900792985" duration="24917000" />
       <workItem from="1534158224202" duration="3953000" />
       <workItem from="1534163648375" duration="4901000" />
-      <workItem from="1534171456912" duration="530000" />
-      <workItem from="1534174738877" duration="5043000" />
-      <workItem from="1534245180112" duration="2210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75380000" />
+    <option name="totallyTimeSpent" value="67413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1091" y="-2" width="1853" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28666297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -468,7 +395,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.66982126" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3280757" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32912722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -498,7 +425,21 @@
         <state relative-caret-position="-3945" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/w.png" />
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/home.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/home/home.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -562,41 +503,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_800x800-turnos_argentina.gob.ar.png" />
-    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_formulario6.png" />
-    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_formulario.png" />
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/compartir.features" />
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/turnos.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/feats.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
+        <state>
           <caret line="256" column="13" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_3.png">
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_800x800-turnos_argentina.gob.ar.png" />
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_formulario6.png" />
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_formulario.png" />
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_argentina.gob.ar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_argentina.gob.ar.png">
+    <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_turnos_2.png">
@@ -605,31 +528,13 @@
     <entry file="file://$PROJECT_DIR$/test/cucumber/imagenes/screenshot_home_argentina.gob.ar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/home.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/turnos.feature">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/compartir.feature">
+    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/turnos/turnos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/support/pages/smoke_01.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/cucumber/features/step_definitions/compartir/compartir.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        <state relative-caret-position="1455">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
         </state>
       </provider>
     </entry>
