@@ -1,5 +1,5 @@
 Feature: Pagina principal
-  Este caso de prueba consiste en la verificacion de la home de Argentina.gob.ar back.argentina.gob.ar
+  Este caso de prueba consiste en la verificacion de la home de Argentina.gob.ar www.argentina.gob.ar
   Se verificara el funcionamiento del buscador tanto de la pagina principal como en cualquier otra pagina que no sea la principal
   Se verificara que todos los links de la página principal funcionen
 
