@@ -212,7 +212,7 @@ def atributo(css,type,resultado_esperado_del_type)
 end
 
 def esperar(segundos)
-  @browser.manage.timeouts.page_load = segundos
+  sleep segundos
 end
 
 
@@ -250,6 +250,26 @@ def status(estatus_esperado)
   end
   puts "href: #{donde_estoy} status(#{link_status})  ...[PASSED]"
 end
+
+
+
+
+def status_link(estatus_esperado,link)
+  expected_status = ["#{estatus_esperado}", "OK"]
+  io = open(link)
+  link_status = io.status
+  unless expected_status == link_status
+    puts fail " Link esta roto su status es:(#{link_status}) se esperaba un status (#{expected_status})..... [ERROR]".red
+  end
+  puts "href: #{donde_estoy} status(#{link_status})  ...[PASSED]"
+end
+
+
+
+
+
+
+
 
 
 

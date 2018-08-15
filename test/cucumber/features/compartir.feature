@@ -24,7 +24,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100829
     Then Verificar google Imagen enviada de nodo 100829
 
-  @compartir
+
   Scenario:  Persona Buscada node 100161
     Given ingresar al nodo 100161 Horacio Manuel Mella
     Then Verificar facebook href para nodo 100161
@@ -42,7 +42,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100161
     Then Verificar google Imagen enviada de nodo 100161
 
-  @compartir
+
   Scenario:  Página 9341 Conocé los bancos
     Given ingresar al nodo 9341 Conocé los bancos
     Then Verificar facebook href para nodo 9341
@@ -60,7 +60,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 9341
     Then Verificar google Imagen enviada de nodo 9341
 
-  @compartir
+
   Scenario:  Persona Página de libro node 100851
     Given ingresar al nodo 100851 Capacitación
     Then Verificar facebook href para nodo 100851
@@ -78,7 +78,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100851
     Then Verificar google Imagen enviada de nodo 100851
 
-  @compartir
+
   Scenario:  Persona Servicio node Registro
     Given ingresar al nodo 37227 Registro para usos
     Then Verificar facebook href para nodo 37227
@@ -96,7 +96,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 37227
     Then Verificar google Imagen enviada de nodo 37227
 
-  @compartir
+
   Scenario:  Persona Subasta node 37905 Soldado
     Given ingresar al nodo 37905 Soldado de la Indep
     Then Verificar facebook href para nodo 37905
@@ -114,7 +114,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 37905
     Then Verificar google Imagen enviada de nodo 37905
 
-  @compartir
+
   Scenario:  Persona Webform node 100803 Comisión
     Given ingresar al nodo 100803 Comisión de igualdad
     Then Verificar facebook href para nodo 100803
@@ -132,7 +132,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100803
     Then Verificar google Imagen enviada de nodo 100803
 
-  @compartir
+
   Scenario:  Persona Área node 3267 Producción
     Given ingresar al nodo 3267 Ministerio de Producción
     Then Verificar facebook href para nodo 3267
