@@ -49,29 +49,18 @@ Then /^Verificar facebook status de nodo 100829$/ do
 end
 
 Then /^Verificar facebook Texto enviado de nodo 100829$/ do
-nodo_front(100829) # El CINAR completó la reparación de cuatro dragas
-facebook = capturar(:link, "Compartir en Facebook")
-facebook.click
-@browser.window_handles
-@browser.window_handles
-@browser.switch_to.window(@browser.window_handles.last)
-
-
-
-  titulo_facebook = capturar(:xpath, '/html/body/div[1]/div/form/div[2]/div/div[2]/div/div[2]/div[2]')
-
-puts titulo_facebook
-puts titulo_facebook.text
-
-
-
-
-
-
-
-
-
-
+  facebook
+  nodo_front(100829) # El CINAR completó la reparación de cuatro dragas
+  titulo = capturar(:class,'title-description').text
+  titulo = titulo.match("^s*[a-zA-Z-].*+s*")
+  facebook = capturar(:link, "Compartir en Facebook")
+  facebook.click
+  textow = capturar(:id, 'u_0_t').text
+  if textow.include? "#{titulo}"
+    puts "El texto del titulo es correcto ...[PASSED]"
+  else
+    puts fail "El texto del titulo es incorrecto ...[ERROR]"
+  end
 end
 
 Then /^Verificar facebook Imagen enviada de nodo 100829$/ do
