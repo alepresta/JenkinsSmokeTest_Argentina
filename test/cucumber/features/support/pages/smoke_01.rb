@@ -10,7 +10,7 @@ def facebook
   capturar(:id,'pass').send_keys pass_bot
   capturar(:id,'loginbutton').click
   esperar(1)
-  puts "El usuario: #{mail_bot} ingreso a www.facebook.com ...[PASS]".yellow
+  puts "El usuario: #{mail_bot} ingreso a www.facebook.com ...[PASS]".blue
 end
 
 
@@ -24,7 +24,7 @@ def google
   capturar(:class,'zHQkBf').send_keys pass_bot
   capturar(:id,'passwordNext').click
   esperar(1)
-  puts "El usuario: #{mail_bot} ingreso a accounts.google.com ...[PASS]".yellow
+  puts "El usuario: #{mail_bot} ingreso a accounts.google.com ...[PASS]".blue
 end
 
 def twitter
@@ -32,7 +32,10 @@ def twitter
   mail_bot = 'eaarached@gmail.com'
   pass_bot = 'modernizacion'
   capturar(:class, 'js-initial-focus').send_keys mail_bot
-  puts "El usuario: #{mail_bot} ingreso a twitter.com ...[PASS]".yellow
+  capturar(:class, 'js-initial-focus').send_keys(:tab,pass_bot)
+  capturar(:xpath, '/html/body/div[1]/div[2]/div/div/div[1]/form/div[2]/button').click
+  puts "El usuario: #{mail_bot} ingreso a twitter.com ...[PASS]".blue
+  esperar(10)
 
 end
 
@@ -44,7 +47,7 @@ def instagram
   capturar(:name, 'password').send_keys pass_bot
   capturar(:class, 'yZn4P').click
   esperar(3)
-  puts "El usuario: #{mail_bot} ingreso a www.instagram.com ...[PASS]".yellow
+  puts "El usuario: #{mail_bot} ingreso a www.instagram.com ...[PASS]".blue
 end
 
 def youtube
@@ -58,7 +61,7 @@ def youtube
   capturar(:id,'passwordNext').click
   esperar(1)
   @browser.get "https://www.youtube.com/"
-  puts "El usuario: #{mail_bot} ingreso a www.youtube.com ...[PASS]".yellow
+  puts "El usuario: #{mail_bot} ingreso a www.youtube.com ...[PASS]".blue
 end
 
 

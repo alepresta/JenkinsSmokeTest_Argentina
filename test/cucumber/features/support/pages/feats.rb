@@ -298,8 +298,18 @@ end
 
 
 
+def imagenes_comparar(new_photo,expected_photo)
+  require 'phashion'
+  img1 = Phashion::Image.new new_photo
+  img2 = Phashion::Image.new expected_photo
+  return img1.duplicate? img2
+end
 
 
-
-
+def save_captcha(ee)
+  require 'watir-get-image-content'
+  img = @browser.image(xpath: '//*[@id="ctl00_captcha"]/td[2]/div[1]/span[1]/img')
+  filename = "#{@path}/tmp/current_captcha.jpg"
+  File.open(filename, 'wb'){|file| file.write( img.to_jpg) }
+end
 
