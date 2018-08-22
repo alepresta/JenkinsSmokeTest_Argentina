@@ -5,7 +5,7 @@ Feature: Turno respuesta
   que el sistema funcione
   que el turno corresponda al tipo de tramite
 
-  @turnos
+  @turnos @todos
   Scenario: Turno respuesta
     Then verificar que el sistema funcione
 

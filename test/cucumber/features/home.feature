@@ -3,11 +3,11 @@ Feature: Pagina principal
   Se verificara el funcionamiento del buscador tanto de la pagina principal como en cualquier otra pagina que no sea la principal
   Se verificara que todos los links de la página principal funcionen
 
-  @menu  @home
+  @menu  @home @todos
   Scenario: Ingresar a la página principal
     Given Ingresar a la página principal
 
-  @menu  @home
+  @menu  @home @todos
   Scenario: Buscar en la página principal
     Then buscar la palabra: anses
     Then buscar la palabra: dominio
@@ -25,18 +25,18 @@ Feature: Pagina principal
     Then buscar desde argentina.gob.ar politicassociales
     Then buscar desde argentina.gob.ar transporte
 
-  @menu  @home
+  @menu  @home @todos
   Scenario:  botón Mi Argentina
     Then verificar que el botón Mi Argentina redirija correctamente
 
-  @menu  @home
+  @menu  @home @todos
   Scenario: Verificar los links del panel-body redirijan al sitio esperado
     Then link - Si tenés que hacer un trámite, podés sacar turno en línea y ganar tiempo.
     Then link - Donar órganos
     Then link - RED SUBE
     Then link - Mi Argentina
 
-  @menu  @home
+  @menu  @home @todos
   Scenario: Verificar los links de trámites y servicios se redirijan correctamante
     Then link - Identidad
     Then link - Trabajar
@@ -56,11 +56,11 @@ Feature: Pagina principal
     Then link - Consumidores
     Then link - Transparencia
 
-  @menu  @home
+  @menu  @home @todos
   Scenario: Verificar que los link de la sección Más consultados
     Then Se verificaran 8 links y textos
 
-  @menu  @home
+  @menu  @home @todos
   Scenario: Verificar los links del footer
     Then link - Creative Commons Reconocimiento
     Then link - QUERÉS HACERNOS UNA SUGERENCIA

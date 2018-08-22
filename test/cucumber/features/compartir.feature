@@ -6,7 +6,7 @@ Feature: Compartir en Rdes Sociales
 
   Se verificaran los siguientes tipos de contenido: Noticia, Persona Buscada, Página, Página de libro, subasta, webform, Área
 
-  @compartir  @compartir_noticia
+  @compartir  @compartir_noticia @todos
   Scenario: Noticia (https://www.argentina.gob.ar/node/100829)
     Given ingresar al nodo 100829 El CINAR
     Then Verificar facebook href para nodo 100829
@@ -24,7 +24,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100829
     Then Verificar google Imagen enviada de nodo 100829
 
-  @compartir  @compartir_persona_buscada
+  @compartir  @compartir_persona_buscada @todos
   Scenario:  Persona Buscada (https://www.argentina.gob.ar/node/100161)
     Given ingresar al nodo 100161 Horacio Manuel Mella
     Then Verificar facebook href para nodo 100161
@@ -42,7 +42,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100161
     Then Verificar google Imagen enviada de nodo 100161
 
-  @compartir  @compartir_pagina
+  @compartir  @compartir_pagina @todos
   Scenario:  Página (https://www.argentina.gob.ar/node/9341)
     Given ingresar al nodo 9341 Conocé los bancos
     Then Verificar facebook href para nodo 9341
@@ -60,7 +60,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 9341
     Then Verificar google Imagen enviada de nodo 9341
 
-  @compartir   @compartir_pagina_libro
+  @compartir   @compartir_pagina_libro @todos
   Scenario: Página de libro (https://www.argentina.gob.ar/node/100851)
     Given ingresar al nodo 100851 Capacitación
     Then Verificar facebook href para nodo 100851
@@ -78,7 +78,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100851
     Then Verificar google Imagen enviada de nodo 100851
 
-  @compartir  @compartir_servicio
+  @compartir  @compartir_servicio @todos
   Scenario: Servicio (https://www.argentina.gob.ar/node/37227)
     Given ingresar al nodo 37227 Registro para usos
     Then Verificar facebook href para nodo 37227
@@ -96,7 +96,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 37227
     Then Verificar google Imagen enviada de nodo 37227
 
-  @compartir   @compartir_subasta
+  @compartir   @compartir_subasta @todos
   Scenario: Subasta (https://www.argentina.gob.ar/node/37905)
     Given ingresar al nodo 37905 Soldado de la Indep
     Then Verificar facebook href para nodo 37905
@@ -114,7 +114,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 37905
     Then Verificar google Imagen enviada de nodo 37905
 
-  @compartir   @compartir_webform
+  @compartir   @compartir_webform @todos
   Scenario:  Webform (https://www.argentina.gob.ar/node/100803)
     Given ingresar al nodo 100803 Comisión de igualdad
     Then Verificar facebook href para nodo 100803
@@ -132,7 +132,7 @@ Feature: Compartir en Rdes Sociales
     Then Verificar google Texto enviado de nodo 100803
     Then Verificar google Imagen enviada de nodo 100803
 
-  @compartir  @compartir_area
+  @compartir  @compartir_area @todos
   Scenario:  Área (https://www.argentina.gob.ar/node/3267)
     Given ingresar al nodo 3267 Ministerio de Producción
     Then Verificar facebook href para nodo 3267

@@ -65,3 +65,14 @@ def youtube
 end
 
 
+def sube
+  @browser.get "https://www.argentina.gob.ar/redsube"
+end
+
+def sube_registro
+  @browser.get "https://tarjetasube.sube.gob.ar/SubeWeb/WebForms/Account/Views/clave-sube-registro.aspx"
+end
+
+def sube_calculadora
+  @browser.get "https://www.argentina.gob.ar/redsube/simulador"
+end
