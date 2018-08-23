@@ -76,3 +76,7 @@ end
 def sube_calculadora
   @browser.get "https://www.argentina.gob.ar/redsube/simulador"
 end
+
+def organismos
+  @browser.get "https://www.argentina.gob.ar/organismos"
+end

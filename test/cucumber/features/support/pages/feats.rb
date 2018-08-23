@@ -261,7 +261,7 @@ def status_link(estatus_esperado,link)
   unless expected_status == link_status
     puts fail " Link esta roto su status es:(#{link_status}) se esperaba un status (#{expected_status})..... [ERROR]".red
   end
-  puts "href: #{donde_estoy} status(#{link_status})  ...[PASSED]"
+  puts "href: #{link} ... status(#{estatus_esperado})  ...[PASSED]"
 end
 
 

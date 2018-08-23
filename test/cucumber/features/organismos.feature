@@ -24,6 +24,7 @@ Feature: Organismos
 
   @organismos
   Scenario: Jefatura de Gabinete
+    Then Jefatura de Gabinete de Ministros
     Then Secretaría de Relaciones Políticas y Parlamentarias
     Then Secretaría de Asuntos Estratégicos
     Then Secretaría de Comunicación Pública
