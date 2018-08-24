@@ -15,14 +15,14 @@ Feature: Organismos
   Poder Legislativo Nacional (deben tener 3 organismos)
   Congreso de la Nación Argentina,  Honorable Senado de la Nación,  Honorable Cámara de Diputados de la Nación.
 
-  @organismos
+  @organismos @todos
   Scenario: Poder Ejecutivo Nacional
     Then Casa Rosada
     Then Secretaría General
     Then Secretaría Legal y Técnica
     Then Sedronar
 
-  @organismos
+  @organismos  @todos
   Scenario: Jefatura de Gabinete
     Then Jefatura de Gabinete de Ministros
     Then Secretaría de Relaciones Políticas y Parlamentarias
@@ -35,7 +35,7 @@ Feature: Organismos
     Then Unidad Plan Belgrano
     Then Dirección Nacional de Inversión Pública
 
-  @organismos
+  @organismos  @todos
   Scenario: Ministerios
     Then Ministerio de Agroindustria
     Then Ministerio de Ambiente y Desarrollo Sustentable
@@ -57,13 +57,13 @@ Feature: Organismos
     Then Ministerio de Transporte
     Then Ministerio de Turismo
 
-  @organismos
+  @organismos  @todos
   Scenario: Judicial de la Nación
     Then Corte Suprema de Justicia de la Nación
     Then Ministerio Público Fiscal – Procuración General de la Nación
     Then Ministerio Público de la Defensa
 
-  @organismos
+  @organismos  @todos
   Scenario: Poder Legislativo Nacional
     Then Congreso de la Nación Argentina
     Then Honorable Senado de la Nación

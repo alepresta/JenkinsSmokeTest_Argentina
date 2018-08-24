@@ -80,3 +80,7 @@ end
 def organismos
   @browser.get "https://www.argentina.gob.ar/organismos"
 end
+
+def go(pagina)
+  @browser.get pagina
+end
