@@ -1,7 +1,7 @@
 Feature: Turno respuesta
   Se ingresara a https://www.argentina.gob.ar/turnos
 
-  verificara que se puede completar la información para generar un turno
+  verificara que se puede completar provincia localidad la información para generar un turno
   que el sistema funcione
   que el turno corresponda al tipo de tramite
 

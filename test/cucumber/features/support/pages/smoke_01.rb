@@ -16,7 +16,7 @@ end
 
 def google
   @browser.get "https://accounts.google.com/signin/v2/identifier"
-  mail_bot = 'automatic.test.bot@gmail.com'
+  mail_bot = 'automatic.borradores.bot@gmail.com'
   pass_bot = 'modernizacion'
   capturar(:id,'identifierId').send_keys mail_bot
   capturar(:id,'identifierNext').click
@@ -41,7 +41,7 @@ end
 
 def instagram
   @browser.get "https://www.instagram.com/accounts/login/"
-  mail_bot = 'automatic.test.bot@gmail.com'
+  mail_bot = 'automatic.borradores.bot@gmail.com'
   pass_bot = 'modernizacion'
   capturar(:class,'zyHYP').send_keys mail_bot
   capturar(:name, 'password').send_keys pass_bot
@@ -52,7 +52,7 @@ end
 
 def youtube
   @browser.get "https://accounts.google.com/signin/v2/identifier"
-  mail_bot = 'automatic.test.bot@gmail.com'
+  mail_bot = 'automatic.borradores.bot@gmail.com'
   pass_bot = 'modernizacion'
   capturar(:id,'identifierId').send_keys mail_bot
   capturar(:id,'identifierNext').click
@@ -84,3 +84,62 @@ end
 def go(pagina)
   @browser.get pagina
 end
+
+def listado_fecha(fecha_1)
+  fecha_1 = fecha_1.text
+  fecha_1 = fecha_1.gsub('de ', '')
+  fecha_1 = fecha_1.gsub(' ', '-')
+  fecha_1 =  fecha_1.gsub('Enero','1').gsub('Febrero','2').gsub('Marzo','3').gsub('Abril','4').gsub('Mayo','5').gsub('Junio','6').gsub('Julio','7').gsub('Agosto','8').gsub('Septiembre','9').gsub('Octubre','10').gsub('Noviembre','11').gsub('Diciembre', '12')
+  fecha_1 = DateTime.new(2007,11,19) #=> #<DateTime: 2007-11-19T08:37:48-0600 ...>
+  #puts "Fecha modificada: #{fecha_1}".red
+  return fecha_1
+end
+
+
+
+
+
+def miargentina_login
+  cuit = 27371491657
+  psw = "modernizacion"
+  go("https://id.argentina.gob.ar/ingresar/")
+  usuario = capturar(:id, 'id_number')
+  usuario.send_keys cuit
+  continuar =  capturar(:class, "loginCuilSession")
+  continuar.click
+  contrasena = capturar(:id, 'id_number')
+  contrasena.send_keys psw
+  continuado =  capturar(:class, "loginCuilSession")
+  continuado.click
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -25,3 +25,5 @@ paginas: -t @paginas -p html report_name=paginas
 tramites: -t @tramites -p html report_name=tramites
 organismos: -t @organismos -p html report_name=organismos
 todos: -t @todos -p html report_name=todos
+formularios: -t @formularios -p html report_name=formularios
+otros: -t @otros -p html report_name=otros

@@ -105,15 +105,15 @@ end
 
 def logueo(cuit,usuario_nombre,psw)
   browser_MiArgentina_qa
-  usuario = @browser.find_element(:id, 'id_number')
+  usuario = capturar(:id, 'id_number')
   usuario.send_keys cuit
-  continuar =  @browser.find_element(:class, "loginCuilSession")
+  continuar =  capturar(:class, "loginCuilSession")
   continuar.click
-  contrasena = @browser.find_element(:id, 'id_number')
+  contrasena = capturar(:id, 'id_number')
   contrasena.send_keys psw
-  continuado =  @browser.find_element(:class, "loginCuilSession")
+  continuado =  capturar(:class, "loginCuilSession")
   continuado.click
-  nombre_de_clase = @browser.find_element(:xpath, "/html/body/main/section[1]/div[2]/div/h1")
+  nombre_de_clase = capturar(:xpath, "/html/body/main/section[1]/div[2]/div/h1")
   txtesto =  nombre_de_clase.text
   puts txtesto
   if txtesto.include? usuario_nombre
@@ -123,9 +123,43 @@ def logueo(cuit,usuario_nombre,psw)
   end
 end
 
+
 def capturar(x,y)
+  wait = Selenium::WebDriver::Wait.new(:timeout => 45)
+  wait.until {
+    element = @browser.find_element(x,y)
+    element if element.displayed?
+  }
   @browser.find_element(x,y)
 end
+
+
+def capture(x,y)
+  wait = Selenium::WebDriver::Wait.new(:timeout => 10)
+
+  element = wait.until { @browser.find_element(x,y) }
+  wait.until { element.displayed? }
+  wait.until { element.enabled? }
+
+  return @browser.find_element(x,y)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def esIgual(texto_que_deberia_estar, texto_capturado, imprime)

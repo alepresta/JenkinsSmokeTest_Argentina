@@ -3,7 +3,8 @@ Given /^ingresar al nodo 100829 El CINAR$/ do
 end
 
 Given /^ingresar al nodo 100161 Horacio Manuel Mella$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
 end
 
 Given /^ingresar al nodo 9341 Conocé los bancos$/ do
@@ -141,7 +142,8 @@ end
 
 
 Then /^Verificar facebook href para nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   facebook = capturar(:link, "Compartir en Facebook")
   href_facebook = facebook.attribute("href")
   if href_facebook.include?('facebook') == true
@@ -152,7 +154,8 @@ Then /^Verificar facebook href para nodo 100161$/ do
 end
 
 Then /^Verificar facebook status de nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   facebook = capturar(:link, "Compartir en Facebook")
   href_facebook = facebook.attribute("href")
   status_link(200,href_facebook)
@@ -160,7 +163,8 @@ end
 
 Then /^Verificar facebook Texto enviado de nodo 100161$/ do
   facebook
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   facebook = capturar(:link, "Compartir en Facebook")
   facebook.click
   textow = capturar(:id, 'u_0_t').text
@@ -172,12 +176,14 @@ Then /^Verificar facebook Texto enviado de nodo 100161$/ do
 end
 
 Then /^Verificar facebook Imagen enviada de nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
 puts "Imagen no validada ...[PASSED]" 
 end
 
 Then /^Verificar twitter href para nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   twitter = capturar(:link, "Compartir en Twitter")
   href_twitter = twitter.attribute("href")
   if href_twitter.include?('twitter') == true
@@ -188,7 +194,8 @@ Then /^Verificar twitter href para nodo 100161$/ do
 end
 
 Then /^Verificar twitter status de nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   twitter = capturar(:link, "Compartir en Twitter")
   href_twitter = twitter.attribute("href")
   status_link(200,href_twitter)
@@ -196,7 +203,8 @@ end
 
 Then /^Verificar twitter Texto enviado de nodo 100161$/ do
   twitter
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   twitter = capturar(:link, "Compartir en Twitter")
   href_twitter = twitter.attribute("href")
   twitter.click
@@ -208,12 +216,14 @@ Then /^Verificar twitter Texto enviado de nodo 100161$/ do
 end
 
 Then /^Verificar twitter Imagen enviada de nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
 puts "Imagen no validada ...[PASSED]" 
 end
 
 Then /^Verificar google href para nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   if href_google.include?('google') == true
@@ -224,7 +234,8 @@ Then /^Verificar google href para nodo 100161$/ do
 end
 
 Then /^Verificar google status de nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   status_link(200,href_google)
@@ -232,7 +243,8 @@ end
 
 Then /^Verificar google Texto enviado de nodo 100161$/ do
   google
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   google = capturar(:link, "Compartir en Google Plus")
   google.click
   textow = capturar(:xpath,'/html/body/c-wiz/div[4]/div/c-wiz/c-wiz/content/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div[2]').text
@@ -244,7 +256,8 @@ Then /^Verificar google Texto enviado de nodo 100161$/ do
 end
 
 Then /^Verificar google Imagen enviada de nodo 100161$/ do
-  nodo_front(100161) # Horacio Manuel Mella # Horacio Manuel Mella
+  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  go(pagina)
   puts "Imagen no validada ...[PASSED]" 
 end
 

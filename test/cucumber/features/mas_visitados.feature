@@ -35,6 +35,18 @@ Feature: Mas Visitados
         19-   https://www.argentina.gob.ar/becasprogresar/novedades-adjudicados
         20-   https://www.argentina.gob.ar/interior
 
+  Otros:
+
+        01-   https://www.argentina.gob.ar/consultar-los-datos-de-la-licencia-nacional-de-conducir
+        02-   https://www.argentina.gob.ar/buscar
+        03-   https://www.argentina.gob.ar/seguir-el-estado-de-tramite-del-dni
+        04-   https://www.argentina.gob.ar/consultar-por-cambio-de-dni
+        05-   https://www.argentina.gob.ar/postulaciones
+        06-   https://www.argentina.gob.ar/hacienda
+        07-   https://www.argentina.gob.ar/finanzas
+        08-   https://www.argentina.gob.ar/donar-organos/formulario
+
+
 
    @tramites  @mas_visitados  @todos
   Scenario: Trámites más visitados
@@ -73,3 +85,13 @@ Feature: Mas Visitados
     Given 19 becasprogresar novedades adjudicados
     Given 20 interior
 
+  @otros @mas_visitados  @todos
+  Scenario: Otros
+    Given  01 argentina consultar los datos de la licencia nacional de conducir
+    Given  02 argentina buscar
+    Given  03 argentina seguir el estado de tramite del dni
+    Given  04 argentina consultar por cambio de dni
+    Given  05 argentina postulaciones
+    Given  06 argentina hacienda
+    Given  07 argentina finanzas
+    Given  08 argentina donar organos formulario

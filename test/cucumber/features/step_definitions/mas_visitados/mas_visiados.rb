@@ -178,3 +178,50 @@ Given /^20 interior$/ do
   status_link(200,donde_estoy)
 end
 
+Given /^01 argentina consultar los datos de la licencia nacional de conducir$/ do
+ pagina = "https://www.argentina.gob.ar/consultar-los-datos-de-la-licencia-nacional-de-conducir"
+ go(pagina)
+ status_link(200,donde_estoy)
+end
+
+Given /^02 argentina buscar$/ do
+ pagina = "https://www.argentina.gob.ar/buscar"
+ go(pagina)
+ status_link(200,donde_estoy)
+end
+
+Given /^03 argentina seguir el estado de tramite del dni$/ do
+ pagina = "https://www.argentina.gob.ar/seguir-el-estado-de-tramite-del-dni"
+ go(pagina)
+ status_link(200,donde_estoy)
+end
+
+Given /^04 argentina consultar por cambio de dni$/ do
+ pagina = "https://www.argentina.gob.ar/consultar-por-cambio-de-dni"
+ go(pagina)
+ status_link(200,donde_estoy)
+end
+
+Given /^05 argentina postulaciones$/ do
+ pagina = "https://www.argentina.gob.ar/postulaciones"
+ go(pagina)
+ status_link(200,donde_estoy)
+end
+
+Given /^06 argentina hacienda$/ do
+ pagina = "https://www.argentina.gob.ar/hacienda"
+ go(pagina)
+ status_link(200,donde_estoy)
+end
+
+Given /^07 argentina finanzas$/ do
+ pagina = "https://www.argentina.gob.ar/finanzas"
+ go(pagina)
+ status_link(200,donde_estoy)
+end
+
+Given /^08 argentina donar organos formulario$/ do
+ pagina = "https://www.argentina.gob.ar/donar-organos/formulario"
+ go(pagina)
+ status_link(200,donde_estoy)
+end

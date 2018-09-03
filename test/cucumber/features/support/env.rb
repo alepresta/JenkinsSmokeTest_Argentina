@@ -6,9 +6,9 @@ require 'page-object'
 require 'cukehub'
 
 Before do
-  @browser = Selenium::WebDriver.for :chrome
+  @browser = Selenium::WebDriver.for :firefox
 end
 
 After do
- # @browser.quit
+  @browser.quit
 end
