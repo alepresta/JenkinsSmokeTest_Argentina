@@ -88,10 +88,9 @@ end
 def listado_fecha(fecha_1)
   fecha_1 = fecha_1.text
   fecha_1 = fecha_1.gsub('de ', '')
-  fecha_1 = fecha_1.gsub(' ', '-')
-  fecha_1 =  fecha_1.gsub('Enero','1').gsub('Febrero','2').gsub('Marzo','3').gsub('Abril','4').gsub('Mayo','5').gsub('Junio','6').gsub('Julio','7').gsub('Agosto','8').gsub('Septiembre','9').gsub('Octubre','10').gsub('Noviembre','11').gsub('Diciembre', '12')
-  fecha_1 = DateTime.new(2007,11,19) #=> #<DateTime: 2007-11-19T08:37:48-0600 ...>
-  #puts "Fecha modificada: #{fecha_1}".red
+  fecha_1 = fecha_1.gsub(' ', '/')
+  fecha_1 =  fecha_1.gsub('Enero','01').gsub('Febrero','02').gsub('Marzo','03').gsub('Abril','04').gsub('Mayo','05').gsub('Junio','06').gsub('Julio','07').gsub('Agosto','08').gsub('Septiembre','09').gsub('Octubre','10').gsub('Noviembre','11').gsub('Diciembre', '12')
+  fecha_1 = Date.strptime(fecha_1, "%d/%m/%Y")
   return fecha_1
 end
 
