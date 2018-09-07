@@ -16,7 +16,7 @@ end
 
 def google
   @browser.get "https://accounts.google.com/signin/v2/identifier"
-  mail_bot = 'automatic.borradores.bot@gmail.com'
+  mail_bot = 'automatic.test.bot@gmail.com'
   pass_bot = 'modernizacion'
   capturar(:id,'identifierId').send_keys mail_bot
   capturar(:id,'identifierNext').click
@@ -41,7 +41,7 @@ end
 
 def instagram
   @browser.get "https://www.instagram.com/accounts/login/"
-  mail_bot = 'automatic.borradores.bot@gmail.com'
+  mail_bot = 'automatic.test.bot@gmail.com'
   pass_bot = 'modernizacion'
   capturar(:class,'zyHYP').send_keys mail_bot
   capturar(:name, 'password').send_keys pass_bot
@@ -52,7 +52,7 @@ end
 
 def youtube
   @browser.get "https://accounts.google.com/signin/v2/identifier"
-  mail_bot = 'automatic.borradores.bot@gmail.com'
+  mail_bot = 'automatic.test.bot@gmail.com'
   pass_bot = 'modernizacion'
   capturar(:id,'identifierId').send_keys mail_bot
   capturar(:id,'identifierNext').click
@@ -115,13 +115,92 @@ end
 
 
 
+def windowGO_segun_texto(target)
+  index   = 0
+  handles = @browser.driver.window_handles
+  @browser.windows.each do |window|
+    if window.text.include?(target)
+      @browser.driver.switch_to.window(handles[index])
+      break
+    end
+    index += 1
+  end
+end
 
 
 
-
-
-
-
+def eliminar_mail_de_turnos
+  google
+  go("https://www.google.com/gmail/")
+  mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[1]/td[6]/div/div/div/span/span')
+  mail_02 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[2]/td[6]/div/div/div/span/span')
+  mail_03 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[3]/td[6]/div/div/div/span/span')
+  mail_04 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[4]/td[6]/div/div/div/span/span')
+  mail_05 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[5]/td[6]/div/div/div/span/span')
+  mail_06 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[6]/td[6]/div/div/div/span/span')
+  mail_07 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[7]/td[6]/div/div/div/span/span')
+  mail_08 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[8]/td[6]/div/div/div/span/span')
+  mail_09 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div/div[1]/div[2]/div/table/tbody/tr[9]/td[6]/div/div/div/span/span')
+  sistema_nacional_de_turnos = "Sistema Nacional de Turnos"
+  checkbox = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div/div[1]/div[1]/div/div/div[1]/div/div[1]/span')
+  checkbox.click
+  if mail_01.text == sistema_nacional_de_turnos
+    mail_01.click
+    tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+    tachito_mail_01.click
+  else
+    if mail_02.text == sistema_nacional_de_turnos
+      mail_02.click
+      tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+      tachito_mail_01.click
+    else
+      if mail_03.text == sistema_nacional_de_turnos
+        mail_03.click
+        tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+        tachito_mail_01.click
+      else
+        if mail_04.text == sistema_nacional_de_turnos
+          mail_04.click
+          tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+          tachito_mail_01.click
+        else
+          if mail_05.text == sistema_nacional_de_turnos
+            mail_05.click
+            tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+            tachito_mail_01.click
+          else
+            if mail_06.text == sistema_nacional_de_turnos
+              mail_06.click
+              tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+              tachito_mail_01.click
+            else
+              if mail_07.text == sistema_nacional_de_turnos
+                mail_07.click
+                tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+                tachito_mail_01.click
+              else
+                if mail_08.text == sistema_nacional_de_turnos
+                  mail_08.click
+                  tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+                  tachito_mail_01.click
+                else
+                  if mail_09.text == sistema_nacional_de_turnos
+                    mail_09.click
+                    tachito_mail_01 = capturar(:xpath,'/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div/div[2]/div[1]/div')
+                    tachito_mail_01.click
+                  else
+                    puts "NADA QUE ELIMINAR".yellow
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  puts "MAIL ELIMINADO.................................[PASSED]".blue
+end
 
 
 

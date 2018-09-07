@@ -145,23 +145,6 @@ def capture(x,y)
 end
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def esIgual(texto_que_deberia_estar, texto_capturado, imprime)
   if texto_que_deberia_estar.eql?(texto_capturado)
     text = true
