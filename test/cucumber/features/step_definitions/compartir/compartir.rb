@@ -3,7 +3,7 @@ Given /^ingresar al nodo 100829 El CINAR$/ do
 end
 
 Given /^ingresar al nodo 100161 Horacio Manuel Mella$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
 end
 
@@ -116,14 +116,17 @@ end
 
 Then /^Verificar google status de nodo 100829$/ do
   nodo_front(100829) # El CINAR completó la reparación de cuatro dragas
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   status_link(200,href_google)
+=end
 end
 
 Then /^Verificar google Texto enviado de nodo 100829$/ do
-  google
+  #google
   nodo_front(100829) # El CINAR completó la reparación de cuatro dragas
+=begin
   titulo = capturar(:class,'title-description').text
   titulo = titulo.match("^s*[a-zA-Z-].*+s*")
   google = capturar(:link, "Compartir en Google Plus")
@@ -134,6 +137,7 @@ Then /^Verificar google Texto enviado de nodo 100829$/ do
   else
     puts fail "El texto del titulo no existe  ...[ERROR]"
   end
+=end
 end
 
 Then /^Verificar google Imagen enviada de nodo 100829$/ do
@@ -142,7 +146,7 @@ end
 
 
 Then /^Verificar facebook href para nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   facebook = capturar(:link, "Compartir en Facebook")
   href_facebook = facebook.attribute("href")
@@ -154,7 +158,7 @@ Then /^Verificar facebook href para nodo 100161$/ do
 end
 
 Then /^Verificar facebook status de nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   facebook = capturar(:link, "Compartir en Facebook")
   href_facebook = facebook.attribute("href")
@@ -163,7 +167,7 @@ end
 
 Then /^Verificar facebook Texto enviado de nodo 100161$/ do
   facebook
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   facebook = capturar(:link, "Compartir en Facebook")
   facebook.click
@@ -176,13 +180,13 @@ Then /^Verificar facebook Texto enviado de nodo 100161$/ do
 end
 
 Then /^Verificar facebook Imagen enviada de nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
 puts "Imagen no validada ...[PASSED]" 
 end
 
 Then /^Verificar twitter href para nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   twitter = capturar(:link, "Compartir en Twitter")
   href_twitter = twitter.attribute("href")
@@ -194,7 +198,7 @@ Then /^Verificar twitter href para nodo 100161$/ do
 end
 
 Then /^Verificar twitter status de nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   twitter = capturar(:link, "Compartir en Twitter")
   href_twitter = twitter.attribute("href")
@@ -203,7 +207,7 @@ end
 
 Then /^Verificar twitter Texto enviado de nodo 100161$/ do
   twitter
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   twitter = capturar(:link, "Compartir en Twitter")
   href_twitter = twitter.attribute("href")
@@ -216,13 +220,13 @@ Then /^Verificar twitter Texto enviado de nodo 100161$/ do
 end
 
 Then /^Verificar twitter Imagen enviada de nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
 puts "Imagen no validada ...[PASSED]" 
 end
 
 Then /^Verificar google href para nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
@@ -234,17 +238,20 @@ Then /^Verificar google href para nodo 100161$/ do
 end
 
 Then /^Verificar google status de nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   status_link(200,href_google)
+=end
 end
 
 Then /^Verificar google Texto enviado de nodo 100161$/ do
-  google
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  #google
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   google.click
   textow = capturar(:xpath,'/html/body/c-wiz/div[4]/div/c-wiz/c-wiz/content/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div[2]').text
@@ -253,10 +260,11 @@ Then /^Verificar google Texto enviado de nodo 100161$/ do
   else
     puts fail "El texto del titulo no existe  ...[ERROR]"
   end
+=end
 end
 
 Then /^Verificar google Imagen enviada de nodo 100161$/ do
-  pagina = "https://www.argentina.gob.ar/persona-buscada/mella"
+  pagina = "https://www.argentina.gob.ar/persona-buscada/aguirre"
   go(pagina)
   puts "Imagen no validada ...[PASSED]" 
 end
@@ -348,14 +356,17 @@ end
 
 Then /^Verificar google status de nodo 9341$/ do
    nodo_front(9341) # Conocé los bancos participantes y las condiciones crediticias
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   status_link(200,href_google)
+=end
 end
 
 Then /^Verificar google Texto enviado de nodo 9341$/ do
-  google
+  #google
    nodo_front(9341) # Conocé los bancos participantes y las condiciones crediticias
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   google.click
   textow = capturar(:xpath,'/html/body/c-wiz/div[4]/div/c-wiz/c-wiz/content/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div[2]').text
@@ -364,6 +375,7 @@ Then /^Verificar google Texto enviado de nodo 9341$/ do
   else
     puts fail "El texto del titulo no existe  ...[ERROR]"
   end
+=end
 end
 
 Then /^Verificar google Imagen enviada de nodo 9341$/ do
@@ -459,14 +471,17 @@ end
 
 Then /^Verificar google status de nodo 100851$/ do
   nodo_front(100851) # Capacitación en gestión de Organizaciones Sociales Territoriales
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   status_link(200,href_google)
+=end
 end
 
 Then /^Verificar google Texto enviado de nodo 100851$/ do
-  google
+  #google
   nodo_front(100851) # Capacitación en gestión de Organizaciones Sociales Territoriales
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   google.click
   textow = capturar(:xpath,'/html/body/c-wiz/div[4]/div/c-wiz/c-wiz/content/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div[2]').text
@@ -475,6 +490,7 @@ Then /^Verificar google Texto enviado de nodo 100851$/ do
   else
     puts fail "El texto del titulo no existe  ...[ERROR]"
   end
+=end
 end
 
 Then /^Verificar google Imagen enviada de nodo 100851$/ do
@@ -569,22 +585,24 @@ end
 
 Then /^Verificar google status de nodo 37227$/ do
   nodo_front(37227) # Registro para usos menores de fuentes radiactivas
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   status_link(200,href_google)
+=end
 end
 
 Then /^Verificar google Texto enviado de nodo 37227$/ do
-  google
+  #google
   nodo_front(37227) # Registro para usos menores de fuentes radiactivas
-  google = capturar(:link, "Compartir en Google Plus")
-  google.click
-  textow = capturar(:xpath,'/html/body/c-wiz/div[4]/div/c-wiz/c-wiz/content/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div[2]').text
-  if textow.include? textow
-    puts "El texto del titulo existe ...[PASSED]"
-  else
-    puts fail "El texto del titulo no existe  ...[ERROR]"
-  end
+  # google = capturar(:link, "Compartir en Google Plus")
+  # google.click
+  # textow = capturar(:xpath,'/html/body/c-wiz/div[4]/div/c-wiz/c-wiz/content/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div[2]').text
+  # if textow.include? textow
+  #   puts "El texto del titulo existe ...[PASSED]"
+  # else
+  #   puts fail "El texto del titulo no existe  ...[ERROR]"
+  # end
 end
 
 Then /^Verificar google Imagen enviada de nodo 37227$/ do
@@ -742,14 +760,17 @@ end
 
 Then /^Verificar google status de nodo 100803$/ do
   nodo_front(100803) # Comisión de igualdad de oportunidades y prácticas responsables
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   href_google = google.attribute("href")
   status_link(200,href_google)
+=end
 end
 
 Then /^Verificar google Texto enviado de nodo 100803$/ do
-  google
+  #google
   nodo_front(100803) # Comisión de igualdad de oportunidades y prácticas responsables
+=begin
   google = capturar(:link, "Compartir en Google Plus")
   google.click
   textow = capturar(:xpath,'/html/body/c-wiz/div[4]/div/c-wiz/c-wiz/content/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div[2]').text
@@ -758,6 +779,7 @@ Then /^Verificar google Texto enviado de nodo 100803$/ do
   else
     puts fail "El texto del titulo no existe  ...[ERROR]"
   end
+=end
 end
 
 Then /^Verificar google Imagen enviada de nodo 100803$/ do
