@@ -2,10 +2,13 @@ Then /^Listado ordenado para argentina_gob_ar finanzas$/ do
   pagina = "http://www.argentina.gob.ar/finanzas"
   go(pagina)
   status_link(200,donde_estoy)
-  fecha_01 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[1]/a/div[2]/time')
-  fecha_02 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[2]/a/div[2]/time')
-  fecha_03 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[3]/a/div[2]/time')
-  fecha_04 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[4]/a/div[2]/time')
+
+
+  #                           /html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[1]/a/div[2]/time
+  fecha_01 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[1]/a/div[2]/time')
+  fecha_02 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[2]/a/div[2]/time')
+  fecha_03 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[3]/a/div[2]/time')
+  fecha_04 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[4]/a/div[2]/time')
   afecha_01 = listado_fecha(fecha_01)
   afecha_02 = listado_fecha(fecha_02)
   afecha_03 = listado_fecha(fecha_03)
@@ -15,7 +18,7 @@ Then /^Listado ordenado para argentina_gob_ar finanzas$/ do
   else
     puts  fail "Se detecto que error al verificar que este ordenado por más reciente ... [NO ORDENADAS] ".red
   end
-  capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/a').click
+  capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/a').click
   fecha_1 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[1]/a/div[2]/time')
   fecha_2 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[2]/a/div[2]/time')
   fecha_3 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[3]/a/div[2]/time')
@@ -113,10 +116,10 @@ Then /^Listado ordenado para argentina_gob_ar salud$/ do
   pagina = "http://www.argentina.gob.ar/salud"
   go(pagina)
   status_link(200,donde_estoy)
-  fecha_01 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[1]/a/div[2]/time')
-  fecha_02 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[2]/a/div[2]/time')
-  fecha_03 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[3]/a/div[2]/time')
-  fecha_04 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[4]/a/div[2]/time')
+  fecha_01 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[1]/a/div[2]/time')
+  fecha_02 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[2]/a/div[2]/time')
+  fecha_03 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[3]/a/div[2]/time')
+  fecha_04 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[4]/a/div[2]/time')
   afecha_01 = listado_fecha(fecha_01)
   afecha_02 = listado_fecha(fecha_02)
   afecha_03 = listado_fecha(fecha_03)
@@ -126,7 +129,7 @@ Then /^Listado ordenado para argentina_gob_ar salud$/ do
   else
     puts  fail "Se detecto que error al verificar que este ordenado por más reciente ... [NO ORDENADAS] ".red
   end
-  capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[3]/div/div/div/div/div[1]/a').click
+  capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[3]/div/div/div/div/div[1]/a').click
   fecha_1 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[1]/a/div[2]/time')
   fecha_2 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[2]/a/div[2]/time')
   fecha_3 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[3]/a/div[2]/time')
@@ -154,10 +157,10 @@ Then /^Listado ordenado para argentina_gob_ar hacienda$/ do
   pagina = "https://www.argentina.gob.ar/hacienda"
   go(pagina)
   status_link(200,donde_estoy)
-  fecha_01 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[1]/a/div[2]/time')
-  fecha_02 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[2]/a/div[2]/time')
-  fecha_03 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[3]/a/div[2]/time')
-  fecha_04 = capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/div/div[4]/a/div[2]/time')
+  fecha_01 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[1]/a/div[2]/time')
+  fecha_02 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[2]/a/div[2]/time')
+  fecha_03 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[3]/a/div[2]/time')
+  fecha_04 = capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/div/div[4]/a/div[2]/time')
   afecha_01 = listado_fecha(fecha_01)
   afecha_02 = listado_fecha(fecha_02)
   afecha_03 = listado_fecha(fecha_03)
@@ -167,7 +170,7 @@ Then /^Listado ordenado para argentina_gob_ar hacienda$/ do
   else
     puts  fail "Se detecto que error al verificar que este ordenado por más reciente ... [NO ORDENADAS] ".red
   end
-  capturar(:xpath,'/html/body/main/div[2]/div/section[2]/div/div[1]/div/div/a').click
+  capturar(:xpath,'/html/body/main/div[2]/div/section[3]/div/div[1]/div/div/a').click
   fecha_1 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[1]/a/div[2]/time')
   fecha_2 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[2]/a/div[2]/time')
   fecha_3 = capturar(:xpath,'/html/body/main/div[2]/div/div/div[5]/div/div/div[1]/div[3]/a/div[2]/time')
