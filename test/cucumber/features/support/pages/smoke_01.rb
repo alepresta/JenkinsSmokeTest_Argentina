@@ -209,7 +209,13 @@ end
 
 
 
+def ultima
+  @browser.switch_to.window(@browser.window_handles.last)
+end
 
+def primera
+  @browser.switch_to.window(@browser.window_handles.first)
+end
 
 
 
