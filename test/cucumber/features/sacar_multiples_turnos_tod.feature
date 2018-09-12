@@ -3,6 +3,6 @@ Feature: Sacar turnos multiples por Tod
 
   @sacar_turno_multiple_tod
   Scenario: Sacar turnos multiples por Tod
+    Then Vaciar atendiendo todos los turnos
     Then Sacar turnos por TOD
-    Then Recepcionar turnos
     Then Atender por ventanilla
