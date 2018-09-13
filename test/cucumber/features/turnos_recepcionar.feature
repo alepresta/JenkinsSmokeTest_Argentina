@@ -1,11 +1,11 @@
 Feature: recepcionar turnos
   En este caso de prueba se verificara que se puede recepcionar un turno
   Se genera turno en https://qa-turnos.argentina.gob.ar/turnos/seleccionTurno/62 para
-  (el usuario Aaron Brian Leonel	Cardozo Campos	27388881588)
+  (el usuario Aaron Brian Leonel	Cardozo Campos	)
   Se ingresa a la url: https://qa-usuarios-turnos.argentina.gob.ar como agente y se recepciona
-  (el usuario Aaron Brian Leonel	Cardozo Campos	27388881588)
+  (el usuario Aaron Brian Leonel	Cardozo Campos	)
   Se ingresa a la url: https://qa-usuarios-turnos.argentina.gob.ar como agente y se atiende
-  (el usuario Aaron Brian Leonel	Cardozo Campos	27388881588)
+  (el usuario Aaron Brian Leonel	Cardozo Campos	)
 
   @recepcionar_turnos
   Scenario: recepcionar turnos
