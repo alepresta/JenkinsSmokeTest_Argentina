@@ -663,7 +663,7 @@ Then /^Honorable Senado de la Nación$/ do
   else
     puts fail "Organismo no encontrado: #{organismo_a_encontrar.red}: ...........................[ERROR]"
   end
-  status_link(200,link_organismo)
+  #status_link(200,link_organismo)
 end
 
 Then /^Honorable Cámara de Diputados de la Nación$/ do
@@ -677,5 +677,5 @@ Then /^Honorable Cámara de Diputados de la Nación$/ do
   else
     puts fail "Organismo no encontrado: #{organismo_a_encontrar.red}: ...........................[ERROR]"
   end
-  status_link(200,link_organismo)
+  #status_link(200,link_organismo)
 end
